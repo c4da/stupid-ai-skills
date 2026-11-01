@@ -3,7 +3,7 @@
   "platform": "stupid-ai-skills",
   "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
   "repository": "https://github.com/c4da/stupid-ai-skills",
-  "skills_count": 8,
+  "skills_count": 9,
   "skills": [
     {
       "name": "ascii-rpg-boss-fight",
@@ -136,6 +136,40 @@
       },
       "sha256": "3882995635b9a614f5d0658a6df5fb8f5bd7dc1f2bce8e0652a80ab76e9a30ea",
       "path": "skills/dnd-party-of-agents"
+    },
+    {
+      "name": "dnd-quest-the-lost-shrine",
+      "version": "1.0.0",
+      "description": "A complete, ready-to-run D&D starter adventure module (\"The Lost Shrine of the Sun-Stone\"). Plugs into classic-dnd-dungeon-master or dnd-party-of-agents to showcase all core tabletop mechanics\u2014stealth, perception, trap disarming, riddles, tactical turn-based boss combat, and loot.",
+      "author": "c4da",
+      "license": "MIT",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "game",
+        "dnd",
+        "quest-module",
+        "adventure",
+        "tabletop"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any"
+      },
+      "sha256": "20f8cfeee8b2959dc726e400cc6e8ce6a3bf7e9c754aeeaa16a0cf88a3c7bb86",
+      "path": "skills/dnd-quest-the-lost-shrine"
     },
     {
       "name": "talk-like-pirate",

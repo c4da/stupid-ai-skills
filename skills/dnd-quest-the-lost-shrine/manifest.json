@@ -1,0 +1,40 @@
+{
+  "name": "dnd-quest-the-lost-shrine",
+  "version": "1.0.0",
+  "description": "A complete, ready-to-run D&D starter adventure module (\"The Lost Shrine of the Sun-Stone\"). Plugs into classic-dnd-dungeon-master or dnd-party-of-agents to showcase all core tabletop mechanics\u2014stealth, perception, trap disarming, riddles, tactical turn-based boss combat, and loot.",
+  "author": "c4da",
+  "license": "MIT",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
+  "marketplace": {
+    "platform": "stupid-ai-skills",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "game",
+      "dnd",
+      "quest-module",
+      "adventure",
+      "tabletop"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "20f8cfeee8b2959dc726e400cc6e8ce6a3bf7e9c754aeeaa16a0cf88a3c7bb86"
+  }
+}

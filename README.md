@@ -11,7 +11,7 @@
 
 ---
 
-## ❓ Proč to proboha vzniklo? (Why Does This Exist?)
+## ❓ Why Does This Exist?
 
 Everyone is out there building autonomous enterprise agents, multi-agent RAG pipelines, and compliant corporate guardrails. We build those too ([see our serious sister repo `agent-trace-skills`](https://github.com/c4da/agent-trace-skills)).
 
@@ -48,9 +48,10 @@ Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrul
 ### 🕹️ Terminal Games, RPGs & Hostage Takers
 | Skill | Type | Description |
 | :--- | :--- | :--- |
-| **[`dnd-party-of-agents`](skills/dnd-party-of-agents)** | Multi-Agent Party | **When real friends cancel game night.** Spawns an autonomous 4-member AI Adventuring Party (Paladin, Barbarian, Rogue, Wizard) in your terminal to debate architecture, roll dice, and crawl dungeons with you! |
-| **[`classic-dnd-dungeon-master`](skills/classic-dnd-dungeon-master)** | Tabletop D&D | **1980s Gary Gygax style Dungeon Master.** ASCII dungeon rooms, d20 dice checks, THAC0, saving throws against segmentation faults, and character sheets. |
-| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); you must choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
+| **[`dnd-quest-the-lost-shrine`](skills/dnd-quest-the-lost-shrine)** | Adventure Module | **Turnkey D&D starter quest.** Ready-to-run adventure ("The Lost Shrine of the Sun-Stone") showcasing wilderness ambushes, poison dart traps, sun-riddles, and a tactical Bugbear boss fight. |
+| **[`dnd-party-of-agents`](skills/dnd-party-of-agents)** | Multi-Agent Party | **When real friends cancel game night.** Spawns an autonomous 4-member AI Adventuring Party (Paladin, Barbarian, Rogue, Wizard) in your terminal to banter, roll dice, and crawl dungeons with you! |
+| **[`classic-dnd-dungeon-master`](skills/classic-dnd-dungeon-master)** | Tabletop D&D | **1980s Gary Gygax style Dungeon Master.** ASCII dungeon rooms, d20 dice checks, THAC0, saving throws against dragon breath, and character sheets. |
+| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); choose combat actions to slay it and reveal the patch! |
 | **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
 
 ### 🎙️ Outrageous Personas
