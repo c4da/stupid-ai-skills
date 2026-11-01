@@ -1,70 +1,10 @@
 {
   "catalog_version": "1.0.0",
-  "platform": "agensi.io",
-  "description": "Curated skill marketplace assets and personas for AI coding agents",
-  "repository": "https://github.com/agensi-io/agensi-skills",
-  "skills_count": 8,
+  "platform": "stupid-ai-skills",
+  "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
+  "skills_count": 4,
   "skills": [
-    {
-      "name": "agent-decision-ledger",
-      "version": "1.0.0",
-      "description": "Cryptographic milestone chronicle and living Studio Project Book audit trail for autonomous agent actions.",
-      "author": "c4da",
-      "license": "MIT OR Apache-2.0",
-      "tier": "free",
-      "categories": [
-        "auditing",
-        "governance",
-        "cryptography"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "http"
-        ],
-        "runtime": "agent_trace_gw >= 1.1.0"
-      },
-      "sha256": "a705c33da47924f90680ebce9065afb6986f6fc96c08f7a596c8f56bd4aa4230",
-      "path": "skills/agent-decision-ledger"
-    },
-    {
-      "name": "agent-runtime-firewall",
-      "version": "1.0.0",
-      "description": "Pre-flight safety checks, destructive command interception, DLP secret redaction, and instant Pre-Image CAS file rollback for AI coding agents.",
-      "author": "c4da",
-      "license": "MIT OR Apache-2.0",
-      "tier": "free",
-      "categories": [
-        "security",
-        "developer-tools",
-        "firewall"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "http"
-        ],
-        "runtime": "agent_trace_gw >= 1.1.0"
-      },
-      "sha256": "1e95d3f464ce28c7989c696b2d104091b9ffb9ace1cdba182be8102dad015917",
-      "path": "skills/agent-runtime-firewall"
-    },
     {
       "name": "cyberpunk-netrunner",
       "version": "1.0.0",
@@ -95,67 +35,6 @@
       },
       "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7",
       "path": "skills/cyberpunk-netrunner"
-    },
-    {
-      "name": "local-model-offload",
-      "version": "1.0.0",
-      "description": "Zero-token local model delegation for unit test scaffolding, boilerplate generation, and first-pass code reviews.",
-      "author": "c4da",
-      "license": "MIT OR Apache-2.0",
-      "tier": "free",
-      "categories": [
-        "developer-tools",
-        "cost-saving",
-        "local-llm"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "http"
-        ],
-        "runtime": "agent_trace_gw >= 1.1.0"
-      },
-      "sha256": "4a0bf71ff05b4d2bcf0d9f2ee93a703dae3253b747ae3baa30db4acec8893b3c",
-      "path": "skills/local-model-offload"
-    },
-    {
-      "name": "multi-agent-conflict-coordinator",
-      "version": "1.0.0",
-      "description": "Coordinates multi-agent file contention, concurrent edits, and split-brain race conditions using deterministic leases, anti-monolith feature decomposition, and telemetry handoffs.",
-      "author": "agensi.io",
-      "license": "MIT OR Apache-2.0",
-      "tier": "paid",
-      "categories": [
-        "coordination",
-        "multi-agent",
-        "concurrency",
-        "developer-tools"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "http"
-        ],
-        "runtime": "agent_trace_gw >= 1.1.0"
-      },
-      "sha256": "6fb0c13585c648e8fccc9aed0244b4433ff2c7f76e8b85932e4b7f05a2c4a3af",
-      "path": "skills/multi-agent-conflict-coordinator"
     },
     {
       "name": "talk-like-pirate",

@@ -24,12 +24,12 @@ def sha256_file(filepath: Path) -> str:
     return h.hexdigest()
 
 def main():
-    print(f"[*] Scanning Agensi skills catalog at: {SKILLS_DIR}")
+    print(f"[*] Scanning Stupid AI Skills catalog at: {SKILLS_DIR}")
     catalog = {
         "catalog_version": "1.0.0",
-        "platform": "agensi.io",
-        "description": "Curated skill marketplace assets and personas for AI coding agents",
-        "repository": "https://github.com/agensi-io/agensi-skills",
+        "platform": "stupid-ai-skills",
+        "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
+        "repository": "https://github.com/c4da/stupid-ai-skills",
         "skills_count": 0,
         "skills": []
     }

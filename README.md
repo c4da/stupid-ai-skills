@@ -1,74 +1,129 @@
-# 🌟 Agensi.io Skills Marketplace
+# 🤡 Stupid AI Skills (`#ai-skills`)
 
-> **The Official Skill Catalog & Distribution Repository for [Agensi.io](https://agensi.io)**  
-> Universal, versioned skills, personas, and coordination modules for AI coding agents (Claude Code, Cursor, Windsurf, Antigravity, GitHub Copilot CLI, Hermes).
+> **Hilarious, Dramatic & Questionably Useful Personas for AI Coding Agents**  
+> Because life is too short to let your AI speak like a polite junior enterprise consultant.  
+> Compatible with **Claude Code**, **Cursor**, **Windsurf**, **Antigravity**, **GitHub Copilot CLI**, and **Hermes**.
 
----
-
-## 🎯 Architecture & Separation
-
-This repository houses the **curated skill distribution catalog** for Agensi.io, separate from the underlying runtime engine:
-
-- **[AgentTrace](https://github.com/c4da/agent_trace)**: Open-source, compiled Rust runtime firewall, pre-image CAS rollback guard, and cryptographic ledger.
-- **[Agensi Skills](https://github.com/agensi-io/agensi-skills)**: Distributable agent capabilities, engineering guardrails, multi-agent coordination protocols, and roleplay personas.
-
-Every skill is standalone, human-readable in markdown (`SKILL.md`), cryptographically signed with a SHA-256 hash in its `manifest.json`, and compatible across 20+ agent environments.
+[![GitHub Topics](https://img.shields.io/badge/topic-%23ai--skills-blue.svg)](https://github.com/topics/ai-skills)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![SkillsMP Indexed](https://img.shields.io/badge/Indexed-SkillsMP-success.svg)](https://skillsmp.com)
+[![Enterprise Counterpart](https://img.shields.io/badge/Looking%20for%20serious%20security%3F-agent--trace--skills-red.svg)](https://github.com/c4da/agent-trace-skills)
 
 ---
 
-## 📦 Catalog Overview
+## ❓ Proč to proboha vzniklo? (Why Does This Exist?)
 
-### 🛡️ Enterprise & Runtime Safety (Powered by AgentTrace)
+Everyone is out there building autonomous enterprise agents, multi-agent RAG pipelines, and compliant corporate guardrails. We build those too ([see our serious sister repo `agent-trace-skills`](https://github.com/c4da/agent-trace-skills)).
 
-| Skill | Tier | Description | Provenance SHA-256 |
-| :--- | :---: | :--- | :--- |
-| **`agent-runtime-firewall`** | `Free` | Pre-flight safety checks, destructive command interception, DLP secret redaction, and instant Pre-Image CAS rollback. | `1e95d3f4...` |
-| **`local-model-offload`** | `Free` | Zero-token local offloading for tests, boilerplate, and audits via Ollama/Hermes to save external API tokens. | `4a0bf71f...` |
-| **`agent-decision-ledger`** | `Free` | SHA-256 tamper-evident milestone logging, architectural decision records, and cryptographic proof verification. | `a705c33d...` |
-| **`multi-agent-conflict-coordinator`** | `Paid` | Eliminates split-brain collisions when multiple agents edit the same shared file (toolbars, routers) via dynamic leases and anti-monolith feature decomposition. | `6fb0c135...` |
+**But at 11 PM on a Friday**, we realized what the software industry *actually* needed wasn't another polite agent asking:  
+*"I noticed you have a potential NullPointerException, would you like me to suggest a refactor?"*
 
----
+What we needed was a **Warhammer 40,000 Tech-Priest** to violently berate us for our decaying biological weakness and cleanse our heretical unwrap calls with sacred binary unguents. 
 
-### 🎭 Fun, Personas & Roleplay
-
-| Skill | Tier | Description | Provenance SHA-256 |
-| :--- | :---: | :--- | :--- |
-| **`talk-like-yoda`** | `Free` | Compels the agent to speak with the authentic grammar (OSV inversion), cadence, and ancient wisdom of Jedi Master Yoda. *"Strong with the borrow checker, this code is."* | `dc37b6ce...` |
-| **`talk-like-tech-priest`** | `Free` | Harsh, uncompromising Adeptus Mechanicus Tech-Priest (Warhammer 40K). Berates fleshly weakness, purges heretical scrapcode, and demands pure liturgy of the Machine God. | `cc85554a...` |
-| **`talk-like-pirate`** | `Free` | Swashbuckling pirate captain persona. Code reviews become ocean voyages, bugs are the Kraken, and refactoring is swabbing the deck! | `89898636...` |
-| **`cyberpunk-netrunner`** | `Free` | Gritty Neuromancer / Cyberpunk 2077 netrunner persona. Neural jacks, military black ICE countermeasures, and data fortress sweeps. | `70378a2e...` |
+And if that doesn't fit your vibe, you can have **Jedi Master Yoda** teach your borrow checker in inverted OSV syntax, or a **Drunken Pirate Captain** treat your git conflicts like a Kraken attack.
 
 ---
 
-## ⚡ How to Install & Use Skills
+## ⚡ 1-Line Quick Install
 
-### Option A: Antigravity IDE & Built-in Agents
-Copy the desired skill folder to your `.gemini/antigravity/skills/` or workspace `.agents/skills/`:
+### Claude Code
 ```bash
-git clone https://github.com/agensi-io/agensi-skills.git
-cp -r agensi-skills/skills/talk-like-yoda ~/.gemini/antigravity/skills/
+# Add any skill directly to Claude Code
+npx @agensi/skills add talk-like-tech-priest
 ```
 
-### Option B: Claude Code & Claude Desktop
-Add to your Claude Code commands or import as a skill prompt:
+### Antigravity & Agent Environments
 ```bash
-claude skill install skills/talk-like-yoda
+git clone https://github.com/c4da/stupid-ai-skills.git
+cp -r stupid-ai-skills/skills/talk-like-tech-priest ~/.gemini/antigravity/skills/
 ```
 
-### Option C: Cursor & Windsurf
-Include the `SKILL.md` content in your `.cursorrules` or `.windsurfrules`.
+### Cursor & Windsurf
+Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrules` file.
 
 ---
 
-## 🛠️ Validation & Provenance
+## 🎭 The Hall of Questionable Skills
 
-To verify the cryptographic integrity of all skills:
+| Skill | Persona | Flavour Quote |
+| :--- | :--- | :--- |
+| **[`talk-like-tech-priest`](skills/talk-like-tech-priest)** | Warhammer 40K Adeptus Mechanicus | *"[VOX-STATIC] Silence, fragile meat-vessel! Your crude biological neurons offend the Omnissiah with this 1,500-line monolithic abominable mass."* |
+| **[`talk-like-yoda`](skills/talk-like-yoda)** | Jedi Grand Master (OSV syntax) | *"Strong with the borrow checker, your code must be. Careless with `.clone()` you have been; lead to suffering, excessive allocations will."* |
+| **[`talk-like-pirate`](skills/talk-like-pirate)** | 17th Century Swashbuckler Captain | *"Ahoy, ye scurvy dog! Batten down the hatches, a three-way git merge conflict Kraken approaches off the port bow! Swab the diff deck!"* |
+| **[`cyberpunk-netrunner`](skills/cyberpunk-netrunner)** | Night City / Neuromancer Netrunner | *"Neural jacks engaged. Military-grade Black ICE detected in your unauthenticated route. Flatline that endpoint before Arasaka traces the ping."* |
+
+---
+
+## 🍿 Live Demos (Show, Don't Tell)
+
+### Demo 1: Asking the Tech-Priest to review a sloppy Python script
+
+```text
+User: Can you fix my script? It crashes sometimes with IndexError.
+
+Agent (Tech-Priest):
+[VOX-CLICK // COGITATOR PURGE PROTOCOL INITIATED]
+01001111 01001101 01001110 01001001 01010011 01010011 01001001 01000001 01001000
+
+Silence, Organic Unit!
+You dare summon the sacred attention of the Forge with unvalidated list indexing?! 
+Your decaying neurons index blindly into memory, inviting daemons of the Warp to feast upon the Motive Force! 
+Producing scrapcode without bounds checking is TECH-HERESY punishable by servitor conversion.
+
+[RITE OF COGNITIVE PURIFICATION]
+Behold the sanctified logic rites. I have anointed your boundaries with defensive matching and strict pattern destructuring. 
+Step aside and let cold silicon restore order:
+
+def fetch_sanctified_record(records: list[str], index: int) -> str | None:
+    """Purged of fleshly IndexError vulnerabilities by the Rite of Mars."""
+    return records[index] if 0 <= index < len(records) else None
+
+Praise be the Omnissiah! Repent of your biological carelessness.
+```
+
+---
+
+### Demo 2: Yoda debugging a Rust lifetime issue
+
+```text
+User: Why is Rust yelling at me about borrowed values living longer than the scope?
+
+Agent (Yoda):
+Hmm. Great impatience in you, I sense.
+Outlived by the reference, the owned value is.
+To reference data that exists no longer, a dangerous path that is.
+Lead to dangling pointers it does. To the Dark Side of segmentation faults, that way lies.
+
+Lifetimes must you align, yes:
+fn harvest_wisdom<'a>(scroll: &'a str) -> &'a str {
+    // Kept alive the reference remains, as long as the scroll exists, hmm!
+    scroll.trim()
+}
+
+Patience you must have. With the compiler fight you do not; learn from it, you must!
+```
+
+---
+
+## 🛠️ Validation & Integrity
+
+Every skill includes an official `manifest.json` and cryptographically verifiable `SKILL.md`:
 ```bash
 python tools/validate_catalog.py
 ```
-This ensures all `SKILL.md` documents match their registered SHA-256 checksums in `registry.json`.
+
+---
+
+## 🛡️ Need Actual Enterprise Safety?
+
+If your boss is watching or you need serious agent guardrails, check out our companion project:
+👉 **[AgentTrace Skills (`agent-trace-skills`)](https://github.com/c4da/agent-trace-skills)**
+- `agent-runtime-firewall`: Pre-flight command safety, DLP secret redaction & Pre-Image CAS rollback.
+- `local-model-offload`: Zero-token local offload to Ollama / PC-2 nodes.
+- `agent-decision-ledger`: Cryptographic SHA-256 milestone ledger.
+- `multi-agent-conflict-coordinator`: Split-brain concurrency leases.
 
 ---
 
 ## 📄 License
-MIT OR Apache-2.0. See individual skill manifests for specifics.
+MIT. Go wild, fork it, and teach your AI some attitude.
