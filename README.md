@@ -139,59 +139,55 @@ Choose wisely:
 Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
 ```
 
-### Demo 4: 1980s D&D Dungeon Master rolling initiative in `/src/workers`
+### Demo 4: Authentic 1980s D&D Dungeon Master running a dungeon chamber
 
 ```text
-User: Two threads are clobbering each other's counter in my async worker.
+User: I carefully inspect the ancient sarcophagus before opening it.
 
 DM:
 *Behind the cardboard DM screen, polyhedral dice clatter against felt.*
-"You step carefully into the damp stone catacombs of /src/workers. 
-Suddenly, from the darkness of the thread pool, a twin-headed CONCURRENCY CHIMERA lunges!
-Both heads snap hungrily at the shared pointer, screeching in cacophony!"
+"You step lightly around the stone perimeter, running your gauntlets along the carved elven runes."
+Roll an Intelligence (Investigation) check, DC 13!
 
-       # # # # # # # # # # # # # # # # # #
-       # . . . . . . . . . . . . . . . . #
-       # . @ . . . . . . . . . . C . . . #     @ = Thorin the Code-Cleric
-       # . . . . . . . . . . . . . . . . #     C = Concurrency Chimera (HP: 38/38)
-       # # # # # # # # # # # # # # # # # #
+User: /roll
 
-"Roll a Dexterity saving throw (DC 13) to avoid the Deadlock Breath!
-What do you do?
- [1] Cast 'Arc<Mutex<T>>' (Level 2 Abjuration Spell)
- [2] Swing with 'AtomicUsize' Warhammer (Requires DEX 14)
- [3] Drink Potion of Thread::Sleep(100) (Desperate gamble)"
+DM:
+         / \
+        / 15\    [ D20 ROLL: 15 + 0 (INT Mod) = 15 ]
+       /_____\   >> SUCCESS! (DC 13 Passed)
+
+"Your sharp eye catches a hairline groove along the rim of the lid. A thin silver wire 
+leads down into a lead pipe filled with sleep gas!
+With a steady hand and your dagger, you snip the tripwire cleanly. The trap is disarmed!
+Inside lies a skeletal knight clutching a +1 Silver Shortsword and a velvet pouch with 45 ancient gold pieces!"
 ```
 
-### Demo 5: The AI Adventuring Party debating a caching architecture
+---
+
+### Demo 5: The Autonomous AI D&D Party exploring the Sunless Tomb
 
 ```text
-User: How should we implement caching for our user profile API?
+DM (User): You stand before the subterranean crypt of the Lich Lord. 
+The double oak doors are sealed with three glowing purple warding runes.
 
-Valerius (Paladin of Pure Architecture):
-*Draws his sword of Pure Functions.*
-"We must construct a sanctified, immutable LRU cache! Every entry must be cryptographically 
-hashed and defended by ten unit tests, so no corruption ever taints the holy state!"
+Valerius (Paladin):
+*Lifts his glowing shield, whispering a prayer to Helm.*
+"Necromantic sorcery! Ignis, can you identify the nature of these unholy wards?"
 
-Brutus (Barbarian of Brute Force):
-*Spits on the floor, hefting a massive two-handed HashMap.*
-"BRUTUS SAYS PUT WHOLE DATABASE IN RAM! 64 GIGABYTE CHEAP! WHY EVICT? 
-NEVER EVICT! ALL USER STAY IN MEMORY FOREVER!"
+Ignis (Wizard):
+*Adjusts spectacles, pulling out material components.*
+"Let me cast Detect Magic as a ritual! *Rolls Arcana check: 18!* 
+Ah! These are Abjuration runes tied to an alarm spell. If forced open, it triggers 
+a Cloudkill within the hallway!"
 
-Shadow (Rogue of Undocumented APIs):
-*Flips a poisoned dagger, smirking from the dark corner.*
-"Relax, amateurs. I know a guy on GitHub who wrote a 5-line caching script in 2014. 
-Zero dependencies, except it intercepts HTTP headers via a shady base64 proxy. 
-I can slip it in before the build pipeline notices."
+Thokk (Barbarian):
+*Spits on his hands and hefts his greataxe.*
+"THOKK NOT AFRAID OF PURPLE CLOUD! THOKK SMASH WOODEN DOOR!"
 
-Ignis (Necromancer of Unsafe Metaprogramming):
-*Eyes glowing with eldritch purple light.*
-"Fools. You think in peasant abstractions. Behold the forbidden art of mmap()! 
-We shall map raw NVMe memory sectors directly into user space with zero-copy bitwise indexing!"
-
-[PARTY ROLL FOR INITIATIVE]
-Valerius rolls 14. Brutus rolls 4 (fumbled). Shadow rolls 19. Ignis rolls 12.
-"Party Leader! Whose plan do we execute, or do you command a synthesis?"
+Lyra (Rogue):
+*Grabs Thokk's shoulder, pulling him back.*
+"Back off, you big ape! Let me use my thieves' tools to scratch out the anchor rune first! 
+DM, I roll Sleight of Hand with my thieves' tools to disarm the ward!"
 ```
 
 ---
