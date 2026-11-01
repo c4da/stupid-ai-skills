@@ -7,6 +7,7 @@
 [![GitHub Topics](https://img.shields.io/badge/topic-%23ai--skills-blue.svg)](https://github.com/topics/ai-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![SkillsMP Indexed](https://img.shields.io/badge/Indexed-SkillsMP-success.svg)](https://skillsmp.com)
+[![Tabletop D&D Companion](https://img.shields.io/badge/Looking%20for%20D%26D%20Tabletop%3F-dnd--agents-purple.svg)](https://github.com/c4da/dnd-agents)
 [![Enterprise Counterpart](https://img.shields.io/badge/Looking%20for%20serious%20security%3F-agent--trace--skills-red.svg)](https://github.com/c4da/agent-trace-skills)
 
 ---
@@ -20,7 +21,7 @@ Everyone is out there building autonomous enterprise agents, multi-agent RAG pip
 
 What we needed was a **Warhammer 40,000 Tech-Priest** to violently berate us for our decaying biological weakness and cleanse our heretical unwrap calls with sacred binary unguents. 
 
-And if that doesn't fit your vibe, you can have **Jedi Master Yoda** teach your borrow checker in inverted OSV syntax, or a **Drunken Pirate Captain** treat your git conflicts like a Kraken attack.
+And if that doesn't fit your vibe, you can have **Jedi Master Yoda** teach your borrow checker in inverted OSV syntax, a **Drunken Pirate Captain** treat your git conflicts like a Kraken attack, or a **Troll hold your bug fix hostage behind a riddle**!
 
 ---
 
@@ -45,13 +46,10 @@ Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrul
 
 ## 🎭 The Hall of Questionable Skills & Games
 
-### 🕹️ Terminal Games, RPGs & Hostage Takers
+### 🕹️ Terminal Games & Hostage Takers
 | Skill | Type | Description |
 | :--- | :--- | :--- |
-| **[`dnd-quest-the-lost-shrine`](skills/dnd-quest-the-lost-shrine)** | Adventure Module | **Turnkey D&D starter quest.** Ready-to-run adventure ("The Lost Shrine of the Sun-Stone") showcasing wilderness ambushes, poison dart traps, sun-riddles, and a tactical Bugbear boss fight. |
-| **[`dnd-party-of-agents`](skills/dnd-party-of-agents)** | Multi-Agent Party | **When real friends cancel game night.** Spawns an autonomous 4-member AI Adventuring Party (Paladin, Barbarian, Rogue, Wizard) in your terminal to banter, roll dice, and crawl dungeons with you! |
-| **[`classic-dnd-dungeon-master`](skills/classic-dnd-dungeon-master)** | Tabletop D&D | **1980s Gary Gygax style Dungeon Master.** ASCII dungeon rooms, d20 dice checks, THAC0, saving throws against dragon breath, and character sheets. |
-| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); choose combat actions to slay it and reveal the patch! |
+| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
 | **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
 
 ### 🎙️ Outrageous Personas
@@ -113,7 +111,9 @@ fn harvest_wisdom<'a>(scroll: &'a str) -> &'a str {
 Patience you must have. With the compiler fight you do not; learn from it, you must!
 ```
 
-### Demo 3: The Toll Troll holding a bug fix hostage
+---
+
+### Demo 3: The Toll Troll holding a bug fix hostage behind a riddle
 
 ```text
 User: How do I fix this IndexError in my Python script?
@@ -140,56 +140,26 @@ Choose wisely:
 Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
 ```
 
-### Demo 4: Authentic 1980s D&D Dungeon Master running a dungeon chamber
+---
 
-```text
-User: I carefully inspect the ancient sarcophagus before opening it.
+## 🎲 Looking for Pure Tabletop D&D?
 
-DM:
-*Behind the cardboard DM screen, polyhedral dice clatter against felt.*
-"You step lightly around the stone perimeter, running your gauntlets along the carved elven runes."
-Roll an Intelligence (Investigation) check, DC 13!
-
-User: /roll
-
-DM:
-         / \
-        / 15\    [ D20 ROLL: 15 + 0 (INT Mod) = 15 ]
-       /_____\   >> SUCCESS! (DC 13 Passed)
-
-"Your sharp eye catches a hairline groove along the rim of the lid. A thin silver wire 
-leads down into a lead pipe filled with sleep gas!
-With a steady hand and your dagger, you snip the tripwire cleanly. The trap is disarmed!
-Inside lies a skeletal knight clutching a +1 Silver Shortsword and a velvet pouch with 45 ancient gold pieces!"
-```
+Did your real-world gaming group cancel game night again? Check out our dedicated standalone D&D repository:  
+👉 **[DnD-Agents (`dnd-agents`)](https://github.com/c4da/dnd-agents)**
+- **`classic-dnd-dungeon-master`**: 1980s Gary Gygax style DM with roguelike ASCII dungeon maps, d20 checks, and monster tables.
+- **`dnd-party-of-agents`**: Spawns an autonomous 4-member AI party (Paladin, Barbarian, Rogue, Wizard) in your terminal.
+- **`dnd-quest-the-lost-shrine`**: Turnkey starter adventure module (*The Lost Shrine of the Sun-Stone*).
 
 ---
 
-### Demo 5: The Autonomous AI D&D Party exploring the Sunless Tomb
+## 🛡️ Need Actual Enterprise Safety?
 
-```text
-DM (User): You stand before the subterranean crypt of the Lich Lord. 
-The double oak doors are sealed with three glowing purple warding runes.
-
-Valerius (Paladin):
-*Lifts his glowing shield, whispering a prayer to Helm.*
-"Necromantic sorcery! Ignis, can you identify the nature of these unholy wards?"
-
-Ignis (Wizard):
-*Adjusts spectacles, pulling out material components.*
-"Let me cast Detect Magic as a ritual! *Rolls Arcana check: 18!* 
-Ah! These are Abjuration runes tied to an alarm spell. If forced open, it triggers 
-a Cloudkill within the hallway!"
-
-Thokk (Barbarian):
-*Spits on his hands and hefts his greataxe.*
-"THOKK NOT AFRAID OF PURPLE CLOUD! THOKK SMASH WOODEN DOOR!"
-
-Lyra (Rogue):
-*Grabs Thokk's shoulder, pulling him back.*
-"Back off, you big ape! Let me use my thieves' tools to scratch out the anchor rune first! 
-DM, I roll Sleight of Hand with my thieves' tools to disarm the ward!"
-```
+If your boss is watching or you need serious agent guardrails, check out our companion project:  
+👉 **[AgentTrace Skills (`agent-trace-skills`)](https://github.com/c4da/agent-trace-skills)**
+- `agent-runtime-firewall`: Pre-flight command safety, DLP secret redaction & Pre-Image CAS rollback.
+- `local-model-offload`: Zero-token local offload to Ollama / PC-2 nodes.
+- `agent-decision-ledger`: Cryptographic SHA-256 milestone ledger.
+- `multi-agent-conflict-coordinator`: Split-brain concurrency leases.
 
 ---
 
@@ -199,17 +169,6 @@ Every skill includes an official `manifest.json` and cryptographically verifiabl
 ```bash
 python tools/validate_catalog.py
 ```
-
----
-
-## 🛡️ Need Actual Enterprise Safety?
-
-If your boss is watching or you need serious agent guardrails, check out our companion project:
-👉 **[AgentTrace Skills (`agent-trace-skills`)](https://github.com/c4da/agent-trace-skills)**
-- `agent-runtime-firewall`: Pre-flight command safety, DLP secret redaction & Pre-Image CAS rollback.
-- `local-model-offload`: Zero-token local offload to Ollama / PC-2 nodes.
-- `agent-decision-ledger`: Cryptographic SHA-256 milestone ledger.
-- `multi-agent-conflict-coordinator`: Split-brain concurrency leases.
 
 ---
 

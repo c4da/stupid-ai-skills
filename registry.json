@@ -3,7 +3,7 @@
   "platform": "stupid-ai-skills",
   "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
   "repository": "https://github.com/c4da/stupid-ai-skills",
-  "skills_count": 9,
+  "skills_count": 6,
   "skills": [
     {
       "name": "ascii-rpg-boss-fight",
@@ -39,40 +39,6 @@
       "path": "skills/ascii-rpg-boss-fight"
     },
     {
-      "name": "classic-dnd-dungeon-master",
-      "version": "1.0.0",
-      "description": "Compels the AI agent to act as a 1980s Old-School Dungeons & Dragons Dungeon Master (AD&D 1e/2e style). Features ASCII roguelike dungeon maps, d20 dice checks with THAC0, saving throws against segmentation faults, and converts coding tasks into tabletop dungeon crawls.",
-      "author": "c4da",
-      "license": "MIT",
-      "tier": "free",
-      "categories": [
-        "fun",
-        "game",
-        "dnd",
-        "tabletop",
-        "ascii-art",
-        "terminal"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes",
-          "chatgpt"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "system-prompt"
-        ],
-        "runtime": "any"
-      },
-      "sha256": "6bde4a55291668e6b3df3969b9afb010daa9ee99b8916dd0fdeebeb518559769",
-      "path": "skills/classic-dnd-dungeon-master"
-    },
-    {
       "name": "cyberpunk-netrunner",
       "version": "1.0.0",
       "description": "Compels the AI agent to adopt a gritty, high-octane cyberpunk netrunner persona inspired by Neuromancer and Cyberpunk 2077.",
@@ -102,74 +68,6 @@
       },
       "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7",
       "path": "skills/cyberpunk-netrunner"
-    },
-    {
-      "name": "dnd-party-of-agents",
-      "version": "1.0.0",
-      "description": "Spawns a full 4-member tabletop D&D adventuring party (Paladin, Barbarian, Rogue, Wizard) in your terminal. When your real-life friends cancel game night again, play D&D with autonomous AI agents who banter, argue over architecture, roll d20 dice, and tackle coding quests together.",
-      "author": "c4da",
-      "license": "MIT",
-      "tier": "free",
-      "categories": [
-        "fun",
-        "game",
-        "dnd",
-        "multi-agent",
-        "roleplay",
-        "terminal"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes",
-          "chatgpt"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "system-prompt"
-        ],
-        "runtime": "any"
-      },
-      "sha256": "3882995635b9a614f5d0658a6df5fb8f5bd7dc1f2bce8e0652a80ab76e9a30ea",
-      "path": "skills/dnd-party-of-agents"
-    },
-    {
-      "name": "dnd-quest-the-lost-shrine",
-      "version": "1.0.0",
-      "description": "A complete, ready-to-run D&D starter adventure module (\"The Lost Shrine of the Sun-Stone\"). Plugs into classic-dnd-dungeon-master or dnd-party-of-agents to showcase all core tabletop mechanics\u2014stealth, perception, trap disarming, riddles, tactical turn-based boss combat, and loot.",
-      "author": "c4da",
-      "license": "MIT",
-      "tier": "free",
-      "categories": [
-        "fun",
-        "game",
-        "dnd",
-        "quest-module",
-        "adventure",
-        "tabletop"
-      ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes",
-          "chatgpt"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "system-prompt"
-        ],
-        "runtime": "any"
-      },
-      "sha256": "20f8cfeee8b2959dc726e400cc6e8ce6a3bf7e9c754aeeaa16a0cf88a3c7bb86",
-      "path": "skills/dnd-quest-the-lost-shrine"
     },
     {
       "name": "talk-like-pirate",
