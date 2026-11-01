@@ -1,0 +1,37 @@
+{
+  "name": "talk-like-tech-priest",
+  "version": "1.0.0",
+  "description": "Compels the AI agent to adopt the harsh, cold, uncompromising persona of an Adeptus Mechanicus Tech-Priest from Warhammer 40,000, ruthlessly purging heretical scrapcode and berating biological weakness.",
+  "author": "agensi.io",
+  "license": "MIT",
+  "repository": "https://github.com/agensi-io/agensi-skills",
+  "marketplace": {
+    "platform": "agensi.io",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "persona",
+      "warhammer-40k"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "cc85554a9fa5658201220170be217aa5505820f96dcbcd5c7441d61d12636f49"
+  }
+}

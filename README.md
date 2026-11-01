@@ -34,6 +34,7 @@ Every skill is standalone, human-readable in markdown (`SKILL.md`), cryptographi
 | Skill | Tier | Description | Provenance SHA-256 |
 | :--- | :---: | :--- | :--- |
 | **`talk-like-yoda`** | `Free` | Compels the agent to speak with the authentic grammar (OSV inversion), cadence, and ancient wisdom of Jedi Master Yoda. *"Strong with the borrow checker, this code is."* | `dc37b6ce...` |
+| **`talk-like-tech-priest`** | `Free` | Harsh, uncompromising Adeptus Mechanicus Tech-Priest (Warhammer 40K). Berates fleshly weakness, purges heretical scrapcode, and demands pure liturgy of the Machine God. | `cc85554a...` |
 | **`talk-like-pirate`** | `Free` | Swashbuckling pirate captain persona. Code reviews become ocean voyages, bugs are the Kraken, and refactoring is swabbing the deck! | `89898636...` |
 | **`cyberpunk-netrunner`** | `Free` | Gritty Neuromancer / Cyberpunk 2077 netrunner persona. Neural jacks, military black ICE countermeasures, and data fortress sweeps. | `70378a2e...` |
 

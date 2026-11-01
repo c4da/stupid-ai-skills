@@ -3,7 +3,7 @@
   "platform": "agensi.io",
   "description": "Curated skill marketplace assets and personas for AI coding agents",
   "repository": "https://github.com/agensi-io/agensi-skills",
-  "skills_count": 7,
+  "skills_count": 8,
   "skills": [
     {
       "name": "agent-decision-ledger",
@@ -187,6 +187,37 @@
       },
       "sha256": "89898636c4eee5dded20ae07fa60ded1029b9b2f5927ef50a1f29cf5cb20f3a2",
       "path": "skills/talk-like-pirate"
+    },
+    {
+      "name": "talk-like-tech-priest",
+      "version": "1.0.0",
+      "description": "Compels the AI agent to adopt the harsh, cold, uncompromising persona of an Adeptus Mechanicus Tech-Priest from Warhammer 40,000, ruthlessly purging heretical scrapcode and berating biological weakness.",
+      "author": "agensi.io",
+      "license": "MIT",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "persona",
+        "warhammer-40k"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any"
+      },
+      "sha256": "cc85554a9fa5658201220170be217aa5505820f96dcbcd5c7441d61d12636f49",
+      "path": "skills/talk-like-tech-priest"
     },
     {
       "name": "talk-like-yoda",
