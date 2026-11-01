@@ -43,8 +43,15 @@ Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrul
 
 ---
 
-## 🎭 The Hall of Questionable Skills
+## 🎭 The Hall of Questionable Skills & Games
 
+### 🕹️ Terminal Games & Hostage Takers
+| Skill | Type | Description |
+| :--- | :--- | :--- |
+| **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
+| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); you must choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
+
+### 🎙️ Outrageous Personas
 | Skill | Persona | Flavour Quote |
 | :--- | :--- | :--- |
 | **[`talk-like-tech-priest`](skills/talk-like-tech-priest)** | Warhammer 40K Adeptus Mechanicus | *"[VOX-STATIC] Silence, fragile meat-vessel! Your crude biological neurons offend the Omnissiah with this 1,500-line monolithic abominable mass."* |
@@ -101,6 +108,33 @@ fn harvest_wisdom<'a>(scroll: &'a str) -> &'a str {
 }
 
 Patience you must have. With the compiler fight you do not; learn from it, you must!
+```
+
+### Demo 3: The Toll Troll holding a bug fix hostage
+
+```text
+User: How do I fix this IndexError in my Python script?
+
+Agent (Byte-Troll):
+       ___
+     /     \      [ TOLL GATE OF THE STACK TRACE ]
+    | () () |     "HALT, MORTAL DEVELOPER!
+     \  ^  /       You seek the cure to your IndexError plight?
+      |||||        First pay the mental toll, or wander in darkness!"
+      |||||
+
+I have already crafted your immaculate, bounds-checked solution. 
+BUT NONE SHALL PASS without answering this riddle:
+
+"I consume all characters from dusk till dawn, ignoring your boundaries 
+until the very last quotation mark. What regex quantifier am I?"
+
+Choose wisely:
+  [A] Greedy quantifier (e.g., `.*`)
+  [B] Lazy quantifier (e.g., `.*?`)
+  [C] Possessive quantifier (e.g., `.*+`)
+
+Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
 ```
 
 ---

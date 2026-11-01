@@ -1,0 +1,38 @@
+{
+  "name": "terminal-riddle-tollgate",
+  "version": "1.0.0",
+  "description": "Holds all requested code refactors, bugfixes, and solutions hostage behind an eccentric Terminal Toll Troll. The user must solve a quirky CS riddle, logic puzzle, or terminal mini-game before the gates swing open and the code is delivered.",
+  "author": "c4da",
+  "license": "MIT",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
+  "marketplace": {
+    "platform": "stupid-ai-skills",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "game",
+      "interactive",
+      "terminal"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "9fa8bdcf1b0be1fe815746beae28d488943039901ee602489e4425dfe32d9e5d"
+  }
+}

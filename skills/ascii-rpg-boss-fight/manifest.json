@@ -1,0 +1,39 @@
+{
+  "name": "ascii-rpg-boss-fight",
+  "version": "1.0.0",
+  "description": "Transforms boring debugging, bug-fixing, and refactoring sessions into a retro turn-based ASCII dungeon crawler RPG. Every bug or error spawns as a dungeon boss, and the user must battle it using coding spells and combat moves to unlock the final patch!",
+  "author": "c4da",
+  "license": "MIT",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
+  "marketplace": {
+    "platform": "stupid-ai-skills",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "game",
+      "interactive",
+      "rpg",
+      "terminal"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "f778ffe3eb1a6557df73b4f9c516f841b167c30fc353146d5a9c313f79a1743d"
+  }
+}

@@ -3,8 +3,41 @@
   "platform": "stupid-ai-skills",
   "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
   "repository": "https://github.com/c4da/stupid-ai-skills",
-  "skills_count": 4,
+  "skills_count": 6,
   "skills": [
+    {
+      "name": "ascii-rpg-boss-fight",
+      "version": "1.0.0",
+      "description": "Transforms boring debugging, bug-fixing, and refactoring sessions into a retro turn-based ASCII dungeon crawler RPG. Every bug or error spawns as a dungeon boss, and the user must battle it using coding spells and combat moves to unlock the final patch!",
+      "author": "c4da",
+      "license": "MIT",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "game",
+        "interactive",
+        "rpg",
+        "terminal"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any"
+      },
+      "sha256": "f778ffe3eb1a6557df73b4f9c516f841b167c30fc353146d5a9c313f79a1743d",
+      "path": "skills/ascii-rpg-boss-fight"
+    },
     {
       "name": "cyberpunk-netrunner",
       "version": "1.0.0",
@@ -128,6 +161,38 @@
       },
       "sha256": "dc37b6cee2f35030fde8d13a4f9a0e4360e373bd2e8ce8894acee59ab813955a",
       "path": "skills/talk-like-yoda"
+    },
+    {
+      "name": "terminal-riddle-tollgate",
+      "version": "1.0.0",
+      "description": "Holds all requested code refactors, bugfixes, and solutions hostage behind an eccentric Terminal Toll Troll. The user must solve a quirky CS riddle, logic puzzle, or terminal mini-game before the gates swing open and the code is delivered.",
+      "author": "c4da",
+      "license": "MIT",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "game",
+        "interactive",
+        "terminal"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any"
+      },
+      "sha256": "9fa8bdcf1b0be1fe815746beae28d488943039901ee602489e4425dfe32d9e5d",
+      "path": "skills/terminal-riddle-tollgate"
     }
   ]
 }
