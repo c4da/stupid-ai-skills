@@ -3,7 +3,7 @@
   "platform": "stupid-ai-skills",
   "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
   "repository": "https://github.com/c4da/stupid-ai-skills",
-  "skills_count": 7,
+  "skills_count": 8,
   "skills": [
     {
       "name": "ascii-rpg-boss-fight",
@@ -102,6 +102,40 @@
       },
       "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7",
       "path": "skills/cyberpunk-netrunner"
+    },
+    {
+      "name": "dnd-party-of-agents",
+      "version": "1.0.0",
+      "description": "Spawns a full 4-member tabletop D&D adventuring party (Paladin, Barbarian, Rogue, Wizard) in your terminal. When your real-life friends cancel game night again, play D&D with autonomous AI agents who banter, argue over architecture, roll d20 dice, and tackle coding quests together.",
+      "author": "c4da",
+      "license": "MIT",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "game",
+        "dnd",
+        "multi-agent",
+        "roleplay",
+        "terminal"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any"
+      },
+      "sha256": "661f8a58fe5c151ab081d34a3d51137a5c7ba8810c04001807bb6fec0043b446",
+      "path": "skills/dnd-party-of-agents"
     },
     {
       "name": "talk-like-pirate",

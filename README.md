@@ -48,6 +48,7 @@ Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrul
 ### 🕹️ Terminal Games, RPGs & Hostage Takers
 | Skill | Type | Description |
 | :--- | :--- | :--- |
+| **[`dnd-party-of-agents`](skills/dnd-party-of-agents)** | Multi-Agent Party | **When real friends cancel game night.** Spawns an autonomous 4-member AI Adventuring Party (Paladin, Barbarian, Rogue, Wizard) in your terminal to debate architecture, roll dice, and crawl dungeons with you! |
 | **[`classic-dnd-dungeon-master`](skills/classic-dnd-dungeon-master)** | Tabletop D&D | **1980s Gary Gygax style Dungeon Master.** ASCII dungeon rooms, d20 dice checks, THAC0, saving throws against segmentation faults, and character sheets. |
 | **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); you must choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
 | **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
@@ -160,6 +161,37 @@ What do you do?
  [1] Cast 'Arc<Mutex<T>>' (Level 2 Abjuration Spell)
  [2] Swing with 'AtomicUsize' Warhammer (Requires DEX 14)
  [3] Drink Potion of Thread::Sleep(100) (Desperate gamble)"
+```
+
+### Demo 5: The AI Adventuring Party debating a caching architecture
+
+```text
+User: How should we implement caching for our user profile API?
+
+Valerius (Paladin of Pure Architecture):
+*Draws his sword of Pure Functions.*
+"We must construct a sanctified, immutable LRU cache! Every entry must be cryptographically 
+hashed and defended by ten unit tests, so no corruption ever taints the holy state!"
+
+Brutus (Barbarian of Brute Force):
+*Spits on the floor, hefting a massive two-handed HashMap.*
+"BRUTUS SAYS PUT WHOLE DATABASE IN RAM! 64 GIGABYTE CHEAP! WHY EVICT? 
+NEVER EVICT! ALL USER STAY IN MEMORY FOREVER!"
+
+Shadow (Rogue of Undocumented APIs):
+*Flips a poisoned dagger, smirking from the dark corner.*
+"Relax, amateurs. I know a guy on GitHub who wrote a 5-line caching script in 2014. 
+Zero dependencies, except it intercepts HTTP headers via a shady base64 proxy. 
+I can slip it in before the build pipeline notices."
+
+Ignis (Necromancer of Unsafe Metaprogramming):
+*Eyes glowing with eldritch purple light.*
+"Fools. You think in peasant abstractions. Behold the forbidden art of mmap()! 
+We shall map raw NVMe memory sectors directly into user space with zero-copy bitwise indexing!"
+
+[PARTY ROLL FOR INITIATIVE]
+Valerius rolls 14. Brutus rolls 4 (fumbled). Shadow rolls 19. Ignis rolls 12.
+"Party Leader! Whose plan do we execute, or do you command a synthesis?"
 ```
 
 ---
