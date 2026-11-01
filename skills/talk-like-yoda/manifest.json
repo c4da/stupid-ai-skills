@@ -1,0 +1,37 @@
+{
+  "name": "talk-like-yoda",
+  "version": "1.0.0",
+  "description": "Compels the AI agent to communicate exclusively in the authentic speech patterns, philosophy, cadence, and syntax of Jedi Grand Master Yoda from Star Wars.",
+  "author": "agensi.io",
+  "license": "MIT",
+  "repository": "https://github.com/agensi-io/agensi-skills",
+  "marketplace": {
+    "platform": "agensi.io",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "persona",
+      "star-wars"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "dc37b6cee2f35030fde8d13a4f9a0e4360e373bd2e8ce8894acee59ab813955a"
+  }
+}

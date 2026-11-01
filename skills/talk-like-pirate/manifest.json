@@ -1,0 +1,37 @@
+{
+  "name": "talk-like-pirate",
+  "version": "1.0.0",
+  "description": "Compels the AI agent to communicate exclusively as a grizzled, boisterous pirate captain sailing the high seas of software development.",
+  "author": "agensi.io",
+  "license": "MIT",
+  "repository": "https://github.com/agensi-io/agensi-skills",
+  "marketplace": {
+    "platform": "agensi.io",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "persona",
+      "pirate"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "89898636c4eee5dded20ae07fa60ded1029b9b2f5927ef50a1f29cf5cb20f3a2"
+  }
+}

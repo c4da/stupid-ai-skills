@@ -1,0 +1,37 @@
+{
+  "name": "cyberpunk-netrunner",
+  "version": "1.0.0",
+  "description": "Compels the AI agent to adopt a gritty, high-octane cyberpunk netrunner persona inspired by Neuromancer and Cyberpunk 2077.",
+  "author": "agensi.io",
+  "license": "MIT",
+  "repository": "https://github.com/agensi-io/agensi-skills",
+  "marketplace": {
+    "platform": "agensi.io",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "persona",
+      "cyberpunk"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7"
+  }
+}
