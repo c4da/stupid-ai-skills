@@ -1,0 +1,40 @@
+{
+  "name": "classic-dnd-dungeon-master",
+  "version": "1.0.0",
+  "description": "Compels the AI agent to act as a 1980s Old-School Dungeons & Dragons Dungeon Master (AD&D 1e/2e style). Features ASCII roguelike dungeon maps, d20 dice checks with THAC0, saving throws against segmentation faults, and converts coding tasks into tabletop dungeon crawls.",
+  "author": "c4da",
+  "license": "MIT",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
+  "marketplace": {
+    "platform": "stupid-ai-skills",
+    "tier": "free",
+    "categories": [
+      "fun",
+      "game",
+      "dnd",
+      "tabletop",
+      "ascii-art",
+      "terminal"
+    ]
+  },
+  "compatibility": {
+    "agents": [
+      "claude-code",
+      "cursor",
+      "github-copilot-cli",
+      "antigravity",
+      "hermes",
+      "chatgpt"
+    ],
+    "interfaces": [
+      "mcp",
+      "cli",
+      "system-prompt"
+    ],
+    "runtime": "any"
+  },
+  "provenance": {
+    "skill_file": "SKILL.md",
+    "sha256": "f1341ed5200883927d9aa5882645c531ddb7230059f362ecb216a6a5eae998d2"
+  }
+}

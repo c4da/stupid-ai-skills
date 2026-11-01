@@ -45,11 +45,12 @@ Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrul
 
 ## 🎭 The Hall of Questionable Skills & Games
 
-### 🕹️ Terminal Games & Hostage Takers
+### 🕹️ Terminal Games, RPGs & Hostage Takers
 | Skill | Type | Description |
 | :--- | :--- | :--- |
-| **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
+| **[`classic-dnd-dungeon-master`](skills/classic-dnd-dungeon-master)** | Tabletop D&D | **1980s Gary Gygax style Dungeon Master.** ASCII dungeon rooms, d20 dice checks, THAC0, saving throws against segmentation faults, and character sheets. |
 | **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); you must choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
+| **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
 
 ### 🎙️ Outrageous Personas
 | Skill | Persona | Flavour Quote |
@@ -135,6 +136,30 @@ Choose wisely:
   [C] Possessive quantifier (e.g., `.*+`)
 
 Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
+```
+
+### Demo 4: 1980s D&D Dungeon Master rolling initiative in `/src/workers`
+
+```text
+User: Two threads are clobbering each other's counter in my async worker.
+
+DM:
+*Behind the cardboard DM screen, polyhedral dice clatter against felt.*
+"You step carefully into the damp stone catacombs of /src/workers. 
+Suddenly, from the darkness of the thread pool, a twin-headed CONCURRENCY CHIMERA lunges!
+Both heads snap hungrily at the shared pointer, screeching in cacophony!"
+
+       # # # # # # # # # # # # # # # # # #
+       # . . . . . . . . . . . . . . . . #
+       # . @ . . . . . . . . . . C . . . #     @ = Thorin the Code-Cleric
+       # . . . . . . . . . . . . . . . . #     C = Concurrency Chimera (HP: 38/38)
+       # # # # # # # # # # # # # # # # # #
+
+"Roll a Dexterity saving throw (DC 13) to avoid the Deadlock Breath!
+What do you do?
+ [1] Cast 'Arc<Mutex<T>>' (Level 2 Abjuration Spell)
+ [2] Swing with 'AtomicUsize' Warhammer (Requires DEX 14)
+ [3] Drink Potion of Thread::Sleep(100) (Desperate gamble)"
 ```
 
 ---
