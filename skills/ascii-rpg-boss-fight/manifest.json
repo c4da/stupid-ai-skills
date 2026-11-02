@@ -1,12 +1,12 @@
 {
   "name": "ascii-rpg-boss-fight",
-  "version": "1.0.0",
-  "description": "Transforms boring debugging, bug-fixing, and refactoring sessions into a retro turn-based ASCII dungeon crawler RPG. Every bug or error spawns as a dungeon boss, and the user must battle it using coding spells and combat moves to unlock the final patch!",
+  "version": "1.1.0",
+  "description": "Offers an optional retro turn-based ASCII dungeon crawler framing for debugging, bug-fixing, and refactoring sessions. Bugs can become dungeon bosses while the agent still provides direct, technically accurate help.",
   "author": "c4da",
   "license": "MIT",
   "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "stupid-ai-skills",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
@@ -14,6 +14,16 @@
       "interactive",
       "rpg",
       "terminal"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "rpg",
+      "ascii-game",
+      "turn-based",
+      "debugging",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -30,10 +40,19 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md",
+      "references/bestiary.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "f778ffe3eb1a6557df73b4f9c516f841b167c30fc353146d5a9c313f79a1743d"
+    "skill_file_sha256": "c964a527b42e77c9c0bd1c84e70644c1f0d650c8aef53b7905be940d6ebffc64",
+    "package_sha256": "d26097f7044c8ef71a2e5aa4c3f00a0904763c45cd56bd7f52ca2ccd5b83333a"
   }
 }

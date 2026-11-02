@@ -1,17 +1,27 @@
 {
   "name": "talk-like-yoda",
-  "version": "1.0.0",
-  "description": "Compels the AI agent to communicate exclusively in the authentic speech patterns, philosophy, cadence, and syntax of Jedi Grand Master Yoda from Star Wars.",
+  "version": "1.1.0",
+  "description": "Offers an optional inverted-syntax mentor voice for coding explanations, with unusual sentence order, patient reflection, and clear technical content.",
   "author": "agensi.io",
   "license": "MIT",
-  "repository": "https://github.com/agensi-io/agensi-skills",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "agensi.io",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
       "persona",
-      "star-wars"
+      "mentor"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "inverted-syntax",
+      "wise-mentor",
+      "humor",
+      "persona",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -28,10 +38,20 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md",
+      "references/jedi-code-proverbs.md",
+      "references/syntax-guide.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "dc37b6cee2f35030fde8d13a4f9a0e4360e373bd2e8ce8894acee59ab813955a"
+    "skill_file_sha256": "e63ad1f1ab94594f5dc10eef79dbf6f53010eec6555a6b7e8a2326a0e7612d77",
+    "package_sha256": "7d84968e6cce7ecb15902121e6bff759910d6c9e497653c925a1865001fc1cf8"
   }
 }

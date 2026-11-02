@@ -1,16 +1,27 @@
 {
-  "catalog_version": "1.0.0",
-  "platform": "stupid-ai-skills",
-  "description": "Hilarious, dramatic, and questionably useful personas and skills for AI coding agents",
+  "catalog_version": "1.1.0",
+  "entrypoint": "SKILL.md",
+  "platform": "aiskillsmarket",
+  "discovery_tags": [
+    "ai-skills",
+    "agent-skills",
+    "skill-md",
+    "coding-persona",
+    "debugging-game",
+    "prompt-based",
+    "open-source"
+  ],
+  "description": "Unofficial prompt-only coding personas and interactive debugging games for AI agents.",
   "repository": "https://github.com/c4da/stupid-ai-skills",
   "skills_count": 6,
   "skills": [
     {
       "name": "ascii-rpg-boss-fight",
-      "version": "1.0.0",
-      "description": "Transforms boring debugging, bug-fixing, and refactoring sessions into a retro turn-based ASCII dungeon crawler RPG. Every bug or error spawns as a dungeon boss, and the user must battle it using coding spells and combat moves to unlock the final patch!",
+      "version": "1.1.0",
+      "description": "Offers an optional retro turn-based ASCII dungeon crawler framing for debugging, bug-fixing, and refactoring sessions. Bugs can become dungeon bosses while the agent still provides direct, technically accurate help.",
       "author": "c4da",
       "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
       "tier": "free",
       "categories": [
         "fun",
@@ -19,6 +30,16 @@
         "rpg",
         "terminal"
       ],
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "rpg",
+        "ascii-game",
+        "turn-based",
+        "debugging",
+        "prompt-based"
+      ],
       "compatibility": {
         "agents": [
           "claude-code",
@@ -33,23 +54,42 @@
           "cli",
           "system-prompt"
         ],
-        "runtime": "any"
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
       },
-      "sha256": "f778ffe3eb1a6557df73b4f9c516f841b167c30fc353146d5a9c313f79a1743d",
+      "sha256": "d26097f7044c8ef71a2e5aa4c3f00a0904763c45cd56bd7f52ca2ccd5b83333a",
+      "skill_md_sha256": "c964a527b42e77c9c0bd1c84e70644c1f0d650c8aef53b7905be940d6ebffc64",
+      "files": [
+        "SKILL.md",
+        "references/bestiary.md"
+      ],
       "path": "skills/ascii-rpg-boss-fight"
     },
     {
       "name": "cyberpunk-netrunner",
-      "version": "1.0.0",
-      "description": "Compels the AI agent to adopt a gritty, high-octane cyberpunk netrunner persona inspired by Neuromancer and Cyberpunk 2077.",
+      "version": "1.1.0",
+      "description": "Offers an original gritty cyberpunk netrunner voice for coding tasks, framing debugging as defensive deck work, ICE analysis, and authorized system hardening.",
       "author": "agensi.io",
       "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
       "tier": "free",
       "categories": [
         "fun",
         "persona",
         "cyberpunk"
       ],
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "cyberpunk",
+        "netrunner",
+        "defensive-security",
+        "persona",
+        "prompt-based"
+      ],
       "compatibility": {
         "agents": [
           "claude-code",
@@ -64,23 +104,40 @@
           "cli",
           "system-prompt"
         ],
-        "runtime": "any"
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
       },
-      "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7",
+      "sha256": "ebb8bb505f954a17d8deb29d71808a604cf406cbf65281eb9b5425c28d36a6ff",
+      "skill_md_sha256": "f300b56952b5bb8c12755a6fd5f955c3eef6548874fca398c142486fcfd537bc",
+      "files": [
+        "SKILL.md"
+      ],
       "path": "skills/cyberpunk-netrunner"
     },
     {
       "name": "talk-like-pirate",
-      "version": "1.0.0",
-      "description": "Compels the AI agent to communicate exclusively as a grizzled, boisterous pirate captain sailing the high seas of software development.",
+      "version": "1.1.0",
+      "description": "Offers an optional grizzled pirate-captain voice for software development, turning bugs into sea monsters and refactors into deck work without sacrificing technical clarity.",
       "author": "agensi.io",
       "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
       "tier": "free",
       "categories": [
         "fun",
         "persona",
         "pirate"
       ],
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "pirate",
+        "humor",
+        "persona",
+        "prompt-based"
+      ],
       "compatibility": {
         "agents": [
           "claude-code",
@@ -95,53 +152,41 @@
           "cli",
           "system-prompt"
         ],
-        "runtime": "any"
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
       },
-      "sha256": "89898636c4eee5dded20ae07fa60ded1029b9b2f5927ef50a1f29cf5cb20f3a2",
+      "sha256": "6363ffea999a5742465f339fb3d0414adc73d7f7f283e772de0aabdee24b767a",
+      "skill_md_sha256": "3fc601ad5333a084000643a1480d32a2e77caa1ef774137fdab386768d8a6188",
+      "files": [
+        "SKILL.md",
+        "references/pirate-lexicon.md"
+      ],
       "path": "skills/talk-like-pirate"
     },
     {
       "name": "talk-like-tech-priest",
-      "version": "1.0.0",
-      "description": "Compels the AI agent to adopt the harsh, cold, uncompromising persona of an Adeptus Mechanicus Tech-Priest from Warhammer 40,000, ruthlessly purging heretical scrapcode and berating biological weakness.",
+      "version": "1.1.0",
+      "description": "Offers an optional theatrical forge-priest voice for code review and debugging, using machine-cult vocabulary while preserving respectful communication, technical accuracy, and honest uncertainty.",
       "author": "agensi.io",
       "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
       "tier": "free",
       "categories": [
         "fun",
         "persona",
         "warhammer-40k"
       ],
-      "compatibility": {
-        "agents": [
-          "claude-code",
-          "cursor",
-          "github-copilot-cli",
-          "antigravity",
-          "hermes",
-          "chatgpt"
-        ],
-        "interfaces": [
-          "mcp",
-          "cli",
-          "system-prompt"
-        ],
-        "runtime": "any"
-      },
-      "sha256": "cc85554a9fa5658201220170be217aa5505820f96dcbcd5c7441d61d12636f49",
-      "path": "skills/talk-like-tech-priest"
-    },
-    {
-      "name": "talk-like-yoda",
-      "version": "1.0.0",
-      "description": "Compels the AI agent to communicate exclusively in the authentic speech patterns, philosophy, cadence, and syntax of Jedi Grand Master Yoda from Star Wars.",
-      "author": "agensi.io",
-      "license": "MIT",
-      "tier": "free",
-      "categories": [
-        "fun",
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "forge-priest",
+        "machine-cult",
+        "code-review",
         "persona",
-        "star-wars"
+        "prompt-based"
       ],
       "compatibility": {
         "agents": [
@@ -157,17 +202,78 @@
           "cli",
           "system-prompt"
         ],
-        "runtime": "any"
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
       },
-      "sha256": "dc37b6cee2f35030fde8d13a4f9a0e4360e373bd2e8ce8894acee59ab813955a",
+      "sha256": "0f926895d66c359afb929316057dab8d1057057f55a1f3ea0deaafe85f41b60b",
+      "skill_md_sha256": "711f830ff9a1d2dc49019f10d255f67bbdf1d7642efa17d29e59a3978dcd06ae",
+      "files": [
+        "SKILL.md",
+        "references/canticles-of-the-omnissiah.md",
+        "references/heresy-index.md"
+      ],
+      "path": "skills/talk-like-tech-priest"
+    },
+    {
+      "name": "talk-like-yoda",
+      "version": "1.1.0",
+      "description": "Offers an optional inverted-syntax mentor voice for coding explanations, with unusual sentence order, patient reflection, and clear technical content.",
+      "author": "agensi.io",
+      "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
+      "tier": "free",
+      "categories": [
+        "fun",
+        "persona",
+        "mentor"
+      ],
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "inverted-syntax",
+        "wise-mentor",
+        "humor",
+        "persona",
+        "prompt-based"
+      ],
+      "compatibility": {
+        "agents": [
+          "claude-code",
+          "cursor",
+          "github-copilot-cli",
+          "antigravity",
+          "hermes",
+          "chatgpt"
+        ],
+        "interfaces": [
+          "mcp",
+          "cli",
+          "system-prompt"
+        ],
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
+      },
+      "sha256": "7d84968e6cce7ecb15902121e6bff759910d6c9e497653c925a1865001fc1cf8",
+      "skill_md_sha256": "e63ad1f1ab94594f5dc10eef79dbf6f53010eec6555a6b7e8a2326a0e7612d77",
+      "files": [
+        "SKILL.md",
+        "references/jedi-code-proverbs.md",
+        "references/syntax-guide.md"
+      ],
       "path": "skills/talk-like-yoda"
     },
     {
       "name": "terminal-riddle-tollgate",
-      "version": "1.0.0",
-      "description": "Holds all requested code refactors, bugfixes, and solutions hostage behind an eccentric Terminal Toll Troll. The user must solve a quirky CS riddle, logic puzzle, or terminal mini-game before the gates swing open and the code is delivered.",
+      "version": "1.1.0",
+      "description": "Offers optional coding riddles, logic puzzles, and terminal mini-games before a solution, while never blocking urgent, security, production, or explicitly requested help.",
       "author": "c4da",
       "license": "MIT",
+      "repository": "https://github.com/c4da/stupid-ai-skills",
       "tier": "free",
       "categories": [
         "fun",
@@ -175,6 +281,16 @@
         "interactive",
         "terminal"
       ],
+      "tags": [
+        "ai-skills",
+        "agent-skills",
+        "skill-md",
+        "riddle",
+        "mini-game",
+        "interactive",
+        "terminal",
+        "prompt-based"
+      ],
       "compatibility": {
         "agents": [
           "claude-code",
@@ -189,9 +305,17 @@
           "cli",
           "system-prompt"
         ],
-        "runtime": "any"
+        "runtime": "any",
+        "tools": false,
+        "writes_files": false,
+        "network": false
       },
-      "sha256": "9fa8bdcf1b0be1fe815746beae28d488943039901ee602489e4425dfe32d9e5d",
+      "sha256": "0f2a367b10b00720a34124d4e082990ee48a61a2ca0bb68ac0478566dbb08931",
+      "skill_md_sha256": "81de7bf0e6940c07dcff7b1dc181e50855f3eb68650db885374d4e3bfe816209",
+      "files": [
+        "SKILL.md",
+        "references/riddles.md"
+      ],
       "path": "skills/terminal-riddle-tollgate"
     }
   ]

@@ -1,17 +1,27 @@
 {
   "name": "talk-like-tech-priest",
-  "version": "1.0.0",
-  "description": "Compels the AI agent to adopt the harsh, cold, uncompromising persona of an Adeptus Mechanicus Tech-Priest from Warhammer 40,000, ruthlessly purging heretical scrapcode and berating biological weakness.",
+  "version": "1.1.0",
+  "description": "Offers an optional theatrical forge-priest voice for code review and debugging, using machine-cult vocabulary while preserving respectful communication, technical accuracy, and honest uncertainty.",
   "author": "agensi.io",
   "license": "MIT",
-  "repository": "https://github.com/agensi-io/agensi-skills",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "agensi.io",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
       "persona",
       "warhammer-40k"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "forge-priest",
+      "machine-cult",
+      "code-review",
+      "persona",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -28,10 +38,20 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md",
+      "references/canticles-of-the-omnissiah.md",
+      "references/heresy-index.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "cc85554a9fa5658201220170be217aa5505820f96dcbcd5c7441d61d12636f49"
+    "skill_file_sha256": "711f830ff9a1d2dc49019f10d255f67bbdf1d7642efa17d29e59a3978dcd06ae",
+    "package_sha256": "0f926895d66c359afb929316057dab8d1057057f55a1f3ea0deaafe85f41b60b"
   }
 }

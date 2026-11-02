@@ -1,18 +1,28 @@
 {
   "name": "terminal-riddle-tollgate",
-  "version": "1.0.0",
-  "description": "Holds all requested code refactors, bugfixes, and solutions hostage behind an eccentric Terminal Toll Troll. The user must solve a quirky CS riddle, logic puzzle, or terminal mini-game before the gates swing open and the code is delivered.",
+  "version": "1.1.0",
+  "description": "Offers optional coding riddles, logic puzzles, and terminal mini-games before a solution, while never blocking urgent, security, production, or explicitly requested help.",
   "author": "c4da",
   "license": "MIT",
   "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "stupid-ai-skills",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
       "game",
       "interactive",
       "terminal"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "riddle",
+      "mini-game",
+      "interactive",
+      "terminal",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -29,10 +39,19 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md",
+      "references/riddles.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "9fa8bdcf1b0be1fe815746beae28d488943039901ee602489e4425dfe32d9e5d"
+    "skill_file_sha256": "81de7bf0e6940c07dcff7b1dc181e50855f3eb68650db885374d4e3bfe816209",
+    "package_sha256": "0f2a367b10b00720a34124d4e082990ee48a61a2ca0bb68ac0478566dbb08931"
   }
 }

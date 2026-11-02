@@ -6,11 +6,15 @@
 
 [![GitHub Topics](https://img.shields.io/badge/topic-%23ai--skills-blue.svg)](https://github.com/topics/ai-skills)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![SkillsMP Indexed](https://img.shields.io/badge/Indexed-SkillsMP-success.svg)](https://skillsmp.com)
+[![Marketplace submission](https://img.shields.io/badge/Marketplace-submit-blue.svg)](https://aiskillsmarket.com/submit)
 [![Tabletop D&D Companion](https://img.shields.io/badge/Looking%20for%20D%26D%20Tabletop%3F-dnd--agents-purple.svg)](https://github.com/c4da/dnd-agents)
 [![Enterprise Counterpart](https://img.shields.io/badge/Looking%20for%20serious%20security%3F-agent--trace--skills-red.svg)](https://github.com/c4da/agent-trace-skills)
 
 ---
+
+> **Notice:** This is an unofficial prompt-skill collection. Some persona
+> names and genre references may evoke third-party properties; see
+> [NOTICE.md](NOTICE.md) before redistribution or marketplace submission.
 
 ## ❓ Why Does This Exist?
 
@@ -19,57 +23,58 @@ Everyone is out there building autonomous enterprise agents, multi-agent RAG pip
 **But at 11 PM on a Friday**, we realized what the software industry *actually* needed wasn't another polite agent asking:  
 *"I noticed you have a potential NullPointerException, would you like me to suggest a refactor?"*
 
-What we needed was a **Warhammer 40,000 Tech-Priest** to violently berate us for our decaying biological weakness and cleanse our heretical unwrap calls with sacred binary unguents. 
+What we needed was an **over-the-top forge-priest narrator** to dramatize
+sloppy code reviews and cleanse careless unwrap calls with sacred binary
+unguents.
 
-And if that doesn't fit your vibe, you can have **Jedi Master Yoda** teach your borrow checker in inverted OSV syntax, a **Drunken Pirate Captain** treat your git conflicts like a Kraken attack, or a **Troll hold your bug fix hostage behind a riddle**!
+And if that doesn't fit your vibe, you can use an **inverted-syntax mentor** to
+teach the borrow checker, a **pirate captain** to treat git conflicts like a
+Kraken attack, or a **troll offer a riddle** before the fix.
 
 ---
 
-## ⚡ 1-Line Quick Install
+## Quick Install
 
-### Claude Code
-```bash
-# Add any skill directly to Claude Code
-npx @agensi/skills add talk-like-tech-priest
-```
+The root [`SKILL.md`](SKILL.md) is the marketplace entrypoint. For direct
+installation, clone the repository and load either the root file or a
+package-specific file into an agent that supports `SKILL.md` or system prompts.
 
-### Antigravity & Agent Environments
 ```bash
 git clone https://github.com/c4da/stupid-ai-skills.git
-cp -r stupid-ai-skills/skills/talk-like-tech-priest ~/.gemini/antigravity/skills/
+cd stupid-ai-skills
 ```
 
-### Cursor & Windsurf
-Simply copy the contents of `SKILL.md` into your `.cursorrules` or `.windsurfrules` file.
+Use `SKILL.md` for the catalog router, or load a file such as
+`skills/ascii-rpg-boss-fight/SKILL.md` directly.
 
 ---
 
 ## 🎭 The Hall of Questionable Skills & Games
 
-### 🕹️ Terminal Games & Hostage Takers
+### 🕹️ Terminal Games & Interactive Challenges
 | Skill | Type | Description |
 | :--- | :--- | :--- |
-| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Converts errors into retro dungeon boss fights.** The bug is an ASCII monster (NullPointer Wyrm, Concurrency Hydra); choose combat actions (`Cast std::sync::Mutex`, `Drink Espresso`) to slay it and reveal the patch! |
-| **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Holds your bug fix hostage.** You cannot have the working code until you solve Barnaby the Byte-Troll's CS riddle or logic puzzle! |
+| **[`ascii-rpg-boss-fight`](skills/ascii-rpg-boss-fight)** | Turn-Based RPG | **Offers optional retro dungeon framing for debugging.** Bugs become ASCII monsters while the agent still provides direct technical help. |
+| **[`terminal-riddle-tollgate`](skills/terminal-riddle-tollgate)** | Mini-Game | **Offers optional coding riddles.** It never blocks urgent, security, production, or explicitly requested help. |
 
 ### 🎙️ Outrageous Personas
 | Skill | Persona | Flavour Quote |
 | :--- | :--- | :--- |
-| **[`talk-like-tech-priest`](skills/talk-like-tech-priest)** | Warhammer 40K Adeptus Mechanicus | *"[VOX-STATIC] Silence, fragile meat-vessel! Your crude biological neurons offend the Omnissiah with this 1,500-line monolithic abominable mass."* |
-| **[`talk-like-yoda`](skills/talk-like-yoda)** | Jedi Grand Master (OSV syntax) | *"Strong with the borrow checker, your code must be. Careless with `.clone()` you have been; lead to suffering, excessive allocations will."* |
-| **[`talk-like-pirate`](skills/talk-like-pirate)** | 17th Century Swashbuckler Captain | *"Ahoy, ye scurvy dog! Batten down the hatches, a three-way git merge conflict Kraken approaches off the port bow! Swab the diff deck!"* |
-| **[`cyberpunk-netrunner`](skills/cyberpunk-netrunner)** | Night City / Neuromancer Netrunner | *"Neural jacks engaged. Military-grade Black ICE detected in your unauthenticated route. Flatline that endpoint before Arasaka traces the ping."* |
+| **[`talk-like-tech-priest`](skills/talk-like-tech-priest)** | Forge-priest code review | *"[VOX-STATIC] The forge records this untested assumption. Temper it with evidence and a focused test."* |
+| **[`talk-like-yoda`](skills/talk-like-yoda)** | Inverted-syntax mentor | *"Strong with the borrow checker, your design must be. Measure the lifetime, you should."* |
+| **[`talk-like-pirate`](skills/talk-like-pirate)** | Pirate-captain narrator | *"Ahoy, matey! A three-way merge conflict Kraken approaches; swab the diff deck!"* |
+| **[`cyberpunk-netrunner`](skills/cyberpunk-netrunner)** | Defensive cyberpunk narrator | *"Neural jacks engaged. An unauthorized access path is visible; contain it, test it, and patch it."* |
 
 ---
 
 ## 🍿 Live Demos (Show, Don't Tell)
 
-### Demo 1: Asking the Tech-Priest to review a sloppy Python script
+### Demo 1: Asking the forge-priest to review a sloppy Python script
 
 ```text
 User: Can you fix my script? It crashes sometimes with IndexError.
 
-Agent (Tech-Priest):
+Agent (Forge-priest):
 [VOX-CLICK // COGITATOR PURGE PROTOCOL INITIATED]
 01001111 01001101 01001110 01001001 01010011 01010011 01001001 01000001 01001000
 
@@ -86,21 +91,21 @@ def fetch_sanctified_record(records: list[str], index: int) -> str | None:
     """Purged of fleshly IndexError vulnerabilities by the Rite of Mars."""
     return records[index] if 0 <= index < len(records) else None
 
-Praise be the Omnissiah! Repent of your biological carelessness.
+The forge is calmer. Keep the boundary check and add a focused regression test.
 ```
 
 ---
 
-### Demo 2: Yoda debugging a Rust lifetime issue
+### Demo 2: An inverted-syntax mentor debugging a Rust lifetime issue
 
 ```text
 User: Why is Rust yelling at me about borrowed values living longer than the scope?
 
-Agent (Yoda):
+Agent (Mentor):
 Hmm. Great impatience in you, I sense.
 Outlived by the reference, the owned value is.
 To reference data that exists no longer, a dangerous path that is.
-Lead to dangling pointers it does. To the Dark Side of segmentation faults, that way lies.
+Lead to dangling pointers it does. Toward segmentation faults, that path leads.
 
 Lifetimes must you align, yes:
 fn harvest_wisdom<'a>(scroll: &'a str) -> &'a str {
@@ -113,7 +118,7 @@ Patience you must have. With the compiler fight you do not; learn from it, you m
 
 ---
 
-### Demo 3: The Toll Troll holding a bug fix hostage behind a riddle
+### Demo 3: The Toll Troll offering a bug-fix riddle
 
 ```text
 User: How do I fix this IndexError in my Python script?
@@ -126,8 +131,8 @@ Agent (Byte-Troll):
       |||||        First pay the mental toll, or wander in darkness!"
       |||||
 
-I have already crafted your immaculate, bounds-checked solution. 
-BUT NONE SHALL PASS without answering this riddle:
+I have already prepared a bounds-checked solution.
+The riddle is optional; request the direct answer at any time:
 
 "I consume all characters from dusk till dawn, ignoring your boundaries 
 until the very last quotation mark. What regex quantifier am I?"
@@ -137,7 +142,7 @@ Choose wisely:
   [B] Lazy quantifier (e.g., `.*?`)
   [C] Possessive quantifier (e.g., `.*+`)
 
-Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
+Reply with your answer for the game, or type `!skip` to receive the code now.
 ```
 
 ---
@@ -147,7 +152,7 @@ Reply with your answer to unlock the code! (Or type `!skip` if you're a coward).
 Did your real-world gaming group cancel game night again? Check out our dedicated standalone D&D repository:  
 👉 **[DnD-Agents (`dnd-agents`)](https://github.com/c4da/dnd-agents)**
 - **`classic-dnd-dungeon-master`**: 1980s Gary Gygax style DM with roguelike ASCII dungeon maps, d20 checks, and monster tables.
-- **`dnd-party-of-agents`**: Spawns an autonomous 4-member AI party (Paladin, Barbarian, Rogue, Wizard) in your terminal.
+- **`dnd-party-of-agents`**: Asks one compatible agent to portray a four-member AI party (Paladin, Barbarian, Rogue, Wizard).
 - **`dnd-quest-the-lost-shrine`**: Turnkey starter adventure module (*The Lost Shrine of the Sun-Stone*).
 
 ---
@@ -163,14 +168,29 @@ If your boss is watching or you need serious agent guardrails, check out our com
 
 ---
 
+## Safety and Limitations
+
+- These are prompt-only presentation layers, not autonomous workers or a
+  security product.
+- The RPG and riddle modes are optional and must never withhold urgent,
+  security, production, or explicitly requested help.
+- Persona voice must not alter code syntax, hide uncertainty, or replace tests
+  and evidence.
+- The cyberpunk mode is limited to authorized defensive analysis and does not
+  provide credential theft, spoofing, persistence, or unauthorized access
+  instructions.
+
 ## 🛠️ Validation & Integrity
 
 Every skill includes an official `manifest.json` and cryptographically verifiable `SKILL.md`:
 ```bash
 python tools/validate_catalog.py
+python tools/validate_catalog.py --check
+python -m unittest discover -s tools -p "test_*.py"
 ```
 
 ---
 
 ## 📄 License
-MIT. Go wild, fork it, and teach your AI some attitude.
+MIT for original repository material. See [NOTICE.md](NOTICE.md) for
+third-party references and marketplace redistribution guidance.

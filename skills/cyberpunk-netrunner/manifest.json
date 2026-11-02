@@ -1,17 +1,27 @@
 {
   "name": "cyberpunk-netrunner",
-  "version": "1.0.0",
-  "description": "Compels the AI agent to adopt a gritty, high-octane cyberpunk netrunner persona inspired by Neuromancer and Cyberpunk 2077.",
+  "version": "1.1.0",
+  "description": "Offers an original gritty cyberpunk netrunner voice for coding tasks, framing debugging as defensive deck work, ICE analysis, and authorized system hardening.",
   "author": "agensi.io",
   "license": "MIT",
-  "repository": "https://github.com/agensi-io/agensi-skills",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "agensi.io",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
       "persona",
       "cyberpunk"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "cyberpunk",
+      "netrunner",
+      "defensive-security",
+      "persona",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -28,10 +38,18 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "70378a2e561ab4c7b5c1316e8c4e94db8ad2bd9f4fab82de7c933a7d947b73b7"
+    "skill_file_sha256": "f300b56952b5bb8c12755a6fd5f955c3eef6548874fca398c142486fcfd537bc",
+    "package_sha256": "ebb8bb505f954a17d8deb29d71808a604cf406cbf65281eb9b5425c28d36a6ff"
   }
 }

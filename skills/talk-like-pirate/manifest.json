@@ -1,17 +1,26 @@
 {
   "name": "talk-like-pirate",
-  "version": "1.0.0",
-  "description": "Compels the AI agent to communicate exclusively as a grizzled, boisterous pirate captain sailing the high seas of software development.",
+  "version": "1.1.0",
+  "description": "Offers an optional grizzled pirate-captain voice for software development, turning bugs into sea monsters and refactors into deck work without sacrificing technical clarity.",
   "author": "agensi.io",
   "license": "MIT",
-  "repository": "https://github.com/agensi-io/agensi-skills",
+  "repository": "https://github.com/c4da/stupid-ai-skills",
   "marketplace": {
-    "platform": "agensi.io",
+    "platform": "aiskillsmarket",
     "tier": "free",
     "categories": [
       "fun",
       "persona",
       "pirate"
+    ],
+    "tags": [
+      "ai-skills",
+      "agent-skills",
+      "skill-md",
+      "pirate",
+      "humor",
+      "persona",
+      "prompt-based"
     ]
   },
   "compatibility": {
@@ -28,10 +37,19 @@
       "cli",
       "system-prompt"
     ],
-    "runtime": "any"
+    "runtime": "any",
+    "tools": false,
+    "writes_files": false,
+    "network": false
   },
   "provenance": {
+    "hash_algorithm": "SHA-256",
+    "files": [
+      "SKILL.md",
+      "references/pirate-lexicon.md"
+    ],
     "skill_file": "SKILL.md",
-    "sha256": "89898636c4eee5dded20ae07fa60ded1029b9b2f5927ef50a1f29cf5cb20f3a2"
+    "skill_file_sha256": "3fc601ad5333a084000643a1480d32a2e77caa1ef774137fdab386768d8a6188",
+    "package_sha256": "6363ffea999a5742465f339fb3d0414adc73d7f7f283e772de0aabdee24b767a"
   }
 }
